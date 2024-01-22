@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Spy Mission</title>
+        <script src="./index.js"></script>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/gh/n5ro/aframe-physics-system@v4.0.1/dist/aframe-physics-system.min.js"></script>
+  <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+  <script src="https://recast-api.donmccurdy.com/aframe-inspector-plugin-recast.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+  <script src="./spyMovement.js"></script>
+
+    </head>
+
+    <body>
+
+        <a-scene inspector-plugin-recast background="color:grey">
+            <a-camera position="1.600 9 10.5"></a-camera>
+            <a-assets>
+                <a-asset-item id="spy" src="./assets/spy/scene.gltf"></a-asset-item>
+                <a-asset-item id="coin" src="./assets/coin/scene.gltf"></a-asset-item>
+                <a-asset-item id="gem" src="./assets/gem/scene.gltf"></a-asset-item>
+                <a-asset-item id="scroll" src="./assets/scroll/scene.gltf"></a-asset-item>
+                <a-asset-item id="city" src="./assets/city/scene.gltf"></a-asset-item>
+
+            </a-assets>
+
+            <!--City-->
+            <a-entity id="city" gltf-model="#city" position="600 0 400" rotation="0 0 0" scale="0.05 0.05 0.05" terrain-rotation-reader></a-entity>
+
+            <!--Spy-->
+            <a-entity id="spy" gltf-model="#spy" position="0 2.5 1" rotation="0 0 0" scale="5 5 5" spy-movement></a-entity>
+            
+            <!--Coin
+            <a-entity id="coin" gltf-model="#coin" position=""></a-entity>-->
+
+            <!--Gem
+            <a-entity id="gem" gltf-model="#gem"></a-entity>-->
+
+            <!--Scroll
+            <a-entity id="scroll" gltf-model="scroll"></a-entity>-->
+
+        </a-scene>
+
+    </body>
+</html>

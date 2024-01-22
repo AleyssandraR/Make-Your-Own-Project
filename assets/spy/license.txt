@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bunny Detective
+* source:	https://sketchfab.com/3d-models/bunny-detective-b2ab08f1f5d04d9182400735d6471368
+* author:	bird (https://sketchfab.com/birdii)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bunny Detective" (https://sketchfab.com/3d-models/bunny-detective-b2ab08f1f5d04d9182400735d6471368) by bird (https://sketchfab.com/birdii) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
